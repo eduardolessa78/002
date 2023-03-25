@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário</title>
+        <link rel="stylesheet" href="assets/css/template.css">
+    </head>
+    <body>
+        <header>
+            <div>
+                <img src="assets/images/logo.png" alt="logo">
+                
+            </div>
+        </header>
+        <section>
+            <aside>
+                <p>..::MENU::..</p>
+            </aside>
+            <main>
+                <form action="formulario.html" method="get">
+                <div class="grupo1">
+                    <div>
+                        <label for="os">OS</label><br>
+                        <input type="number" name="os" id="os" autofocus>
+                    </div>
+                    <div>
+                        <label for="serial">NÚMERO DE SÉRIE</label><br>
+                        <input type="text" name="serial" id="serial" required minlength="5">
+                    </div>
+                    <div>
+                        <label for="datai">INÍCIO ATENDIMENTO</label><br>
+                        <input type="datetime-local" name="datai" id="datai">
+                    </div>
+                    <div>
+                        <label for="cliente">CLIENTE</label><br>
+                        <input type="text" name="cliente" id="cliente" required size="34">
+                    </div>
+                    <div>
+                        <label for="projeto">PROJETO</label><br>
+                        <input type="text" name="projeto" id="projeto" required size="34">
+                    </div>
+                    <div>
+                        <label for="modelo">MODELO</label><br>
+                        <input type="text" name="modelo" id="modelo" size="5">
+                    </div>
+                    <div>
+                        <label for="versao">VERSÃO</label><br>
+                        <input type="text" name="versao" id="versao" size="5">
+                    </div>
+                    <div>
+                        <label for="situacao">SITUAÇÃO</label><br>
+                        <select name="situacao" id="situacao" required>
+                            <option></option>
+                            <option value="CONTRATO">CONTRATO</option>
+                            <option value="ORÇAMENTO">ORÇAMENTO</option>
+                            <option value="GARANTIA">GARANTIA</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="mauuso">MAU USO</label><br>
+                        <select name="mauuso" id="mauuso" requirer>
+                            <option></option>
+                            <option value="SIM">SIM</option>
+                            <option value="NÃO">NÃO</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="sam">SAM</label><br>
+                        <input type="text" name="sam" id="sam" size="5">
+                    </div>
+                    <div>
+                        <label for="fotos">FOTOS</label><br>
+                        <input type="text" name="foto" id="foto">
+                    </div>
+                    <div>
+                        <label for="dataf">FIM ATENDIMENTO</label><br>
+                        <input type="datetime-local" name="dataf" id="dataf">
+                    </div>
+                    <div>
+                        <label for="binarios">BINÁRIOS</label><br>
+                        <select name="binarios" id="binarios">
+                            <option></option>
+                            <option value="SIM">SIM</option>
+                            <option value="NÃO">NÃO</option>
+                            <option value="_______">_______</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="tecnico">TÉCNICO</label><br>
+                        <select name="tecnico" id="tecnico" required>
+                            <option></option>
+                            <option value="EDUARDO">EDUARDO</option>
+                            <option value="ADILSON">ADILSON</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="grupo2">
+                    <div>
+                        <label for="observacao1">OBSERVAÇÕES</label><br>
+                        <input type="text" name="observacao1" id="observacao1" size="153" maxlength="120" placeholder="Observações durante o atendimento">
+                    </div>
+                    <div>
+                        <label for="falhaalegada">FALHA ALEGADA</label><br>
+                        <input type="text" name="falhaalegada" id="falhaalegada" size="153" maxlength="120" placeholder="Falha alegada pelo cliente"><br>
+                    </div>
+                    <div>
+                        <label for="analise">ANALÍSE</label><br>
+                        <input type="text" name="analise" id="analise" size="153" maxlength="120" placeholder="Descrição das falhas encontrada"><br>
+                    </div>
+                    <div>
+                        <label for="causa">CAUSA</label><br>
+                        <input type="text" name="causa" is="causa" size="153" maxlength="120" placeholder="Causa das falhas encontradas"><br>
+                    </div>
+                    <div>
+                        <label for="solucao">SOLUÇÃO</label><br>
+                    <input type="text" name="solucao" id="solucao" size="153" maxlength="120" placeholder="Solução para correção das falhas encontradas"><br>
+                    </div>
+                    <fieldset>
+                        <legend>CHECKLIST</legend>
+                        <label><input type="checkbox" name="catraca"> CATRACA</label>
+                        <label><input type="checkbox" name="botoeira"> BOTOEIRA</label>
+                        <label><input type="checkbox" name="qrcode"> QRCODE</label>
+                        <label><input type="checkbox" name="buzzer"> BUZZER</label>
+                        <label><input type="checkbox" name="modem"> MODEM</label>
+                        <label><input type="checkbox" name="gps"> GPS</label>
+                    </fieldset>
+                </div> 
+                <div class="grupo2"> 
+                    <input class="bt" type="submit" value="GRAVAR">
+                </div>
+                </form>
+            </main>
+        </section>
+        <footer>
+            <br> --- SISTEMA EM DESENVOLVIMENTO --- V1.0 --- <br>
+            <address>
+                --- DESENVOLVIDO POR: EDUARDO LESSA DE ANDRADE --- CONTATO: eduardolessa78@gmail.com ---
+            </address>
+        </footer>
+    </body>
+</html>
