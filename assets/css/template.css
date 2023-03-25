@@ -1,0 +1,59 @@
+header{
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    text-shadow: 4px 4px 4px white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+body{
+    background: linear-gradient(#738196 30%, white, #738196);
+    
+    }
+label, fieldset{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    margin: 4px;
+}
+fieldset{
+    width: 1060px;
+}
+
+input, select{
+    background-color: rgb(212, 212, 212);
+    border-left-style: groove;
+    border-top-style: groove;
+    border-radius: 6px;
+    text-transform: uppercase;
+    box-shadow: 3px 3px 1px black;
+    margin: 3px;
+    
+}
+footer{
+    font-size: 9px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+@media (max-width:500px) {
+    label, fieldset{
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 5px;
+    }
+}
+.grupo1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.grupo2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
